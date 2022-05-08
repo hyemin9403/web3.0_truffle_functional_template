@@ -1,0 +1,55 @@
+.card {
+  width: 18rem;
+  height: 23rem;
+
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.card img {
+  width: 18rem;
+  height: 10rem;
+}
+/* Button */
+.button_container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  cursor: pointer;
+  margin-top: 1rem;
+
+  width: 10rem;
+
+  font-family: "Nunito", sans-serif;
+  font-size: 22px;
+  /* text-transform: uppercase; */
+  font-weight: 700;
+  color: #313133;
+  background: #4fd1c5;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 1) 0%,
+    rgba(79, 209, 197, 1) 100%
+  );
+  border: none;
+  border-radius: 1000px;
+  outline: none;
+  position: relative;
+  padding: 10px;
+}
+
+.table_btn_s {
+  background: #806bfd;
+  background: linear-gradient(
+    90deg,
+    rgba(129, 230, 217, 1) 0%,
+    rgba(128, 107, 253, 1) 100%
+  );
+}
